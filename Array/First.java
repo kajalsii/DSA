@@ -2,7 +2,14 @@ package Array;
 
 public class First {
     public static void main(String[] args) {
-        System.out.println("hello guyss finally i have started!");
+        int arr[]= {3,2,1,5,2};
+        int Largest= arr[0];
+        for(int i=1; arr.length > i; i++){
+            if (arr[i]>Largest) {
+                Largest = arr[i];
+            }
+        }
+        System.out.println("the largest number is: " + Largest);
     }
     
 }
